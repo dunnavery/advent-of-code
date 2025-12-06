@@ -13,7 +13,6 @@ with open(file_path, 'r') as file:
             continue
         tmp_array.append(line)
 
-
     for i in range(len(fresh_ingredients)):
         ing_range = fresh_ingredients[i].split('-')
         tmp_range = [int(ing_range[0]), int(ing_range[1])]
